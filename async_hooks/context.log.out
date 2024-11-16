@@ -1,0 +1,28 @@
+TCPSERVERWRAP(2): trigger: 1 execution: 1
+
+TickObject(3): trigger: 2 execution: 1
+
+before:  3
+
+  Timeout(4): trigger: 3 execution: 3
+
+after:  3
+
+destroy:  3
+
+before:  4
+
+  TTYWRAP(5): trigger: 4 execution: 4
+
+  SIGNALWRAP(6): trigger: 4 execution: 4
+
+  TTYWRAP(7): trigger: 4 execution: 4
+
+  TickObject(8): trigger: 4 execution: 4
+
+after:  4
+
+before:  8
+
+after:  8
+
