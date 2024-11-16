@@ -1,7 +1,13 @@
-executionAsyncId (1)
-triggerAsyncId (0)
-
-TCPSERVERWRAP(2): trigger: 1 execution: 1
-
-TickObject(3): trigger: 2 execution: 1
-
+Map(0) {
+  '2': { before: 1731756044833, after: 0 },
+  '3': { before: 1731756044843, after: 0 },
+  '4': { before: 1731756044933, after: 0 },
+  '5': { before: 1731756045833, after: 1 }
+}
+Map(0) {
+  '2': { before: 180824954258458n, after: 25292n },
+  '3': { before: 180824963398625n, after: 8291n },
+  '4': { before: 180825053470541n, after: 26375n },
+  '5': { before: 180825954026291n, after: 691375n }
+}
+Map(0) { '2': 22041n, '3': 28167n, '4': 15250n, '5': 171000n }
