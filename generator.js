@@ -82,8 +82,21 @@ function* count(n) {
 
 for (const counter of count(6)) { console.log(counter) }
 
+console.log("\n=====\n");
 
+function* genBodyReading() {
+  yield 'value from yield';
+  yield* (function* otherIterator() {
+   yield 'value from yield*';
+  })()
+  return 'value from return';
+}
 
+const g = genBodyReading();
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
 
 
 
